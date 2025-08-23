@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes,Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Orders from './pages/Orders'
 import About from './pages/About'
 import Contact from './pages/Contact'
@@ -30,7 +30,7 @@ const App = () => {
         <Route path='cart' element={<Cart />} />
         <Route path='login' element={<Login />} />
         <Route path='place-order' element={<PlaceOrder />} />
-        <Route path='order' element={<Orders />} />
+        <Route path='/orders' element={<Orders />} />
 
 
       </Routes>
