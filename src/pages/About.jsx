@@ -2,6 +2,7 @@ import React from 'react'
 import Title from '../components/Title'
 import { assets } from '../assets/assets'
 import NewsletterBox from '../components/NewsletterBox'
+import LatestCollection from '../components/LatestCollection'
 
 const About = () => {
   return (
@@ -41,7 +42,6 @@ const About = () => {
 
       </div>
       <NewsletterBox/>
-
 
     </div>
   )
